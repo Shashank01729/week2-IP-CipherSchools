@@ -1,0 +1,99 @@
+/* CLASS 3 */
+/* This is paragraph styling */
+p{
+    color:blue;
+    background-color:bisque;
+}
+/* CSS selector */
+/* Use semi colon */
+/* Whole block is known as declaration box */
+
+p{color:blue;background-color:bisque;}
+/* Hard to read */
+
+
+/* CLASS 4 */
+p{
+    color:blue;
+    background-color:bisque; 
+    width: 20px;  /* Absolute units */
+    width: 70vw; /* Relative units */
+    margin: 0;
+    line-height: 1.2;
+
+}
+div{
+    transform: 1.6;
+    transform: rotate(0deg);
+    width: calc(80%-20px);
+    background-image: url("/images/BGI1.jpg");
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: blue;
+}
+/* h1{
+    color: blue;
+} */
+
+
+/* CLASS 5 */
+p{
+    color:#ded6cB;
+    background-color:#000; 
+    background-color:rgb(255,0,0);
+    background-color:rgb(255,0,0,0.6);/* Opacity 60 percent */
+    background-color: hsla(90deg, 60%, 70%,0.6);
+    /* hue, saturation, and lightness (optional alpha) */
+    width: 20px;  /* Absolute units */
+    width: 70vw; /* Relative units */
+    margin: 0;
+    line-height: 1.2;
+
+}
+
+
+/* CLASS 6 */
+/* UNIVERSAL SELECTOR */
+/* Added to every element */
+*{
+    background-color: indianred;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    /* box-sizing: unset; */
+}
+/* Type selector */
+strong{
+    font-size: 20px;
+}
+/* Class Selector */
+.heading{
+    background-color: #000;
+}
+/* ID Selector */
+#one{
+    font-size: 30px;
+}
+/* Desendant Selector */
+.div p{
+    font-size: 30px;
+}
+/* Grouping Selector  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: blue;
+}
+/* Combining Selector  */
+.div .container{
+    font-style: italic;
+}
+

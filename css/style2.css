@@ -1,0 +1,23 @@
+a{
+    color: red;
+}
+
+a:link{/* pseudo class selector */
+    color: brown;
+}
+
+a:hover{ /* when hovered color changes */
+    background-color: cornsilk;
+}
+
+a:active{ /* color changes when click */
+    color: black;
+}
+
+a:focus{ /* when focused it will show  */
+    border: 1px solid green;
+}
+
+a:visited{ /* when visited color gets changed */
+    color: purple;
+}

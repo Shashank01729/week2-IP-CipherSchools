@@ -1,0 +1,22 @@
+div{
+    display: block;
+    overflow-x: hidden;
+    height:100vh;
+    max-height: 100%;
+    perspective:center top;
+}
+
+section{
+    padding: 35px 20px;
+    background-color:white;
+
+}
+
+header{
+    background: url("/images/BGI1.jpg") no-repeat center center / cover;
+    height: 50vh;
+    position: relative;
+    padding: 1px;
+    transform-origin:center loop;
+    transform:translatez(-1px) scale(2,01);
+}

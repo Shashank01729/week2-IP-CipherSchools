@@ -1,0 +1,50 @@
+/* CLASS 7 */
+body{
+    color:aqua;
+}
+p{
+    color:inherit; /* Inherit the previous one */
+}
+
+/* Overwrite */
+*{
+    color: green;
+}
+p{
+    color: red;
+}
+.para{
+    color: black;
+}
+#para{
+    color: purple;
+}
+
+header p{
+    color: royalblue;
+}
+/* The descedant selector overwrite type selector not the class or id selector */
+
+p{
+    color: red !important; 
+}
+p{
+    color: blue;
+}
+
+/* CLASS 8 */
+/* Child Selector */
+header > p{   /* Select all p */
+    background-color: cornsilk;
+}
+
+/* Adjacent Sibling Selector */
+header + p{  /* select 1st p after selector */
+    font-style: italic;
+}
+
+/* General Sibling Selector */
+header ~ p{  /* select every p after container */
+    background-color: darkgoldenrod;
+    color: white;
+}
